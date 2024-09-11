@@ -1,0 +1,42 @@
+:root {
+  --var-card: #8114ff;
+  --var-card-shown: #aeaeae;
+  --var-hover-card: #7300f7;
+  --var-button-bg: #7a9409;
+  --var--hover-button-bg: #6e8508;
+  --var-button-txt: #fff;
+
+
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000;
+  background-color: #f8f8ff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.container{
+  text-align: center;
+}
